@@ -14,9 +14,7 @@ class LightWeightArr {
   }
   doesContainEmpties(startIndex = 0, endIndex = 0) {
     let slicedArr = this.arr.slice(startIndex, endIndex);
-    if (slicedArr.length) return true;
+    if (!slicedArr.length) return true;
     return this.arr.slice(startIndex, endIndex).includes(undefined);
   }
 }
-
-let table = new LightWeightArr(10);

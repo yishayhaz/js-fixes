@@ -3,14 +3,10 @@
 ### Init
 Let's create the arr, and set his length.
 ```js
-let table = new LightWeightArr(10) // 10 is the expected length
+let table = new LightWeightArr(10) // 10 is the expected length as follows
 ```
 
-Now `table` looks something like this `[empty * 10]`<br/>
-you can print the array with
-```js
-console.log(table.arr)
-```
+Now `table` looks something like this `[empty * 10]`
 
 ### Insert
 

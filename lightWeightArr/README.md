@@ -1,9 +1,9 @@
 *tldr*: this class in intended for paginators
 
 ### Init
-Let's create the arr, and set his length.
+Let's create the arr, and set his length as follows.
 ```js
-let table = new LightWeightArr(10) // 10 is the expected length as follows
+let table = new LightWeightArr(10) // 10 is the expected length
 ```
 
 Now `table` looks something like this `[empty * 10]`
